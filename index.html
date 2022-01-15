@@ -10,8 +10,8 @@
 
 <body>
     <div class="container">
+        
         <h1>JOKENPO</h1>
-
         <div class="main">
 
             <div class="player">
@@ -20,24 +20,32 @@
                     <input type="radio" name="choice" id="pedra"> Pedra
                     <input type="radio" name="choice" id="papel"> Papel
                     <input type="radio" name="choice" id="tesoura"> Tesoura
+                    <br>
+                    <button class="btn">JO KEN PO</button>
                 </div>
-                <br>
-                <button class="btn">JO KEN PO</button>
-                <br>
+
             </div>
 
-            <div class="pc">
-                <br>
-                <h2>COMPUTADOR</h2>
-                <div class="pc-escolha">
-                    <p>Aqui vai a escolha do pc</p>
+            <div class="result">
+                <div class="result-player">
+                    <p class="result-p">Sua Jogada</p>
+                </div>
+                X
+                <div class="result-pc">
+                    <p class="result-p">Jogada da I.A</p>
                 </div>
             </div>
-
-            <div class="res">
-                aqui vai o resultado
+        </div>
+        <div class="score">
+            <p>Placar</p>
+            <div class="score-player">
+                <p>0</p>
+                <p class="name">Player</p>
             </div>
-        
+            <div class="score-pc">
+                <p>0</p>
+                <p class="name">I.A</p>
+            </div>
         </div>
     </div>    
 </body>
