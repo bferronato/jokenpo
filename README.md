@@ -1,5 +1,5 @@
 # jokenpo
  Jokenpo
 - [x] HTML
-- [ ] Responsividade
+- [X] Responsividade
 - [ ] JS
